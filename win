@@ -1,3 +1,3 @@
 @echo off
-echo "We are in the windows bootstrap"
+echo "We are in the windows bootstrap. v2"
 echo "Now download and get into a consistent shell with local copies of binaries"
