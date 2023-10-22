@@ -1,10 +1,9 @@
 :<<BATCH
     @echo off
-    echo %PATH%
+    echo "Pulling and executing windows bootstrap (ush/win) from guthub"
     curl -s https://raw.githubusercontent.com/zsimpson/ush/win | cmd
     exit /b
 BATCH
 
-echo "This is Unix"
-env
-echo $PATH
+echo "Pulling and executing nix bootstrap (ush/win) from guthub"
+curl -s https://raw.githubusercontent.com/zsimpson/ush/nix | sh
