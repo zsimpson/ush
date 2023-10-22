@@ -1,0 +1,2 @@
+@echo off
+echo "We are in the windows bootstrap"

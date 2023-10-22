@@ -1,0 +1,1 @@
+echo "We are in the nix bootstrap"
